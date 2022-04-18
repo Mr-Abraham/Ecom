@@ -1,4 +1,12 @@
 # Ecom
-The project Repository
-![Screenshot 2022-04-16 at 15-05-33 Sign Up](https://user-images.githubusercontent.com/82175847/163669990-03e3aba7-ba26-460b-8449-c5c73978866e.png)
-![Screenshot 2022-04-16 at 15-05-25 Login](https://user-images.githubusercontent.com/82175847/163669991-91a5955f-8ee0-4ab6-8040-bb19fe70b1a5.png)
+
+#The project Repository
+
+#Signup Page
+![Signup](https://user-images.githubusercontent.com/82175847/163762226-27f1a81e-f1b8-4aa6-bcb6-cc4ab69ce0bc.png)
+
+#Dashboard Page
+![dashboard](https://user-images.githubusercontent.com/82175847/163762230-9d4a2d2b-dc4c-4ef6-b71f-e820d7c28b9f.png)
+
+#Login Page
+![Login](https://user-images.githubusercontent.com/82175847/163762233-28053ed8-2f3f-4995-b4c2-57797dc0d9ec.png)
