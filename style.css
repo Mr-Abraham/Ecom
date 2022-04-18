@@ -18,7 +18,7 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    padding:2em;
     cursor: pointer;
 }
 header nav .menubtn{
@@ -112,9 +112,10 @@ header nav ul li a{
     width: 400px;
     box-shadow: 0 0 10px 2px #ccc;
     position: relative;
-    top: 50%;
+    top: 30%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-30%);
+    background-color: #fff;
 }
 
 .signup-container{
