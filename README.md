@@ -10,3 +10,11 @@
 
 # Login Page
 ![Login](https://user-images.githubusercontent.com/82175847/163762233-28053ed8-2f3f-4995-b4c2-57797dc0d9ec.png)
+
+# Email verification Pending 
+
+![Screenshot 2022-04-20 at 02-47-30 Email Verification](https://user-images.githubusercontent.com/82175847/164105484-6a0205af-f872-4487-8dfe-1594592ba3df.png)
+
+# Email Verification Success 
+
+![verify success](https://user-images.githubusercontent.com/82175847/164105562-32a9d3b6-687c-4853-a2e0-f501f92a38ae.png)
