@@ -137,7 +137,7 @@ header nav ul li a{
     border: 0;
     outline: none;
     border: 1px solid #ddd;
-    text-transform: capitalize;
+    text-transform: none;
     background: none;
     letter-spacing: 2px;
     border-radius: 4px;
@@ -317,3 +317,18 @@ cursor: pointer;
 .profile-details .details-box p i{
     margin-left: 4em;
 }
+/* alert messege START */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .closebtn:hover {
+    color: black;
+  }   
+  /* alert messege END*/
