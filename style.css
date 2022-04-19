@@ -332,3 +332,74 @@ cursor: pointer;
     color: black;
   }   
   /* alert messege END*/
+
+/* verification  container starts */
+
+.verification-container{
+    width: 60vw;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    text-align: center;
+    background-color: #fff;
+    padding: 3em;
+    border-radius: 5PX;
+    box-shadow:  0 0 10px 4px #ddd;
+    line-height: 1.5;
+}
+
+.verification-container  h1{
+    font-size: 4vw;
+    margin-bottom: .5em;
+    user-select: none;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.verification-container h1 #pending{
+    color: #54BAB9;
+}
+.verification-container h2{
+    font-size: 5vw;
+    color: #54BAB9;
+}
+.verification-container p{
+    font-size: 1.2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-weight: 100;
+    color: #331;
+    letter-spacing: 2px;
+}
+.verification-container button{
+padding: .7em 2em;
+margin-top: 1em;
+background-color: #54BAB9;
+border: none;
+width: 200px;
+font-size: 1em;
+border-radius: 5px;
+cursor: pointer;
+}
+.successful p{
+    font-size: 2em;
+}
+.successful h2{
+    font-size: 5em;
+    margin: 0;
+}
+.verification-container a{
+    text-decoration: none;
+    color: #000;
+    background-color: #54BAB9;
+    padding: .7em 2.5em;
+    display: inline-block;
+    margin-top: .5em;
+    width: 300px;
+    font-size: 1.1em;
+    border-radius: 5PX;
+    transition: 450ms ease;
+    text-align: center;
+    letter-spacing: 2px;
+}

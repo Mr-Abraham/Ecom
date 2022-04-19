@@ -18,3 +18,6 @@ const logutdropdown = document.querySelector('.logout-dropdown');
 userDrop.addEventListener('click',function(){
     logutdropdown.classList.toggle('active-logout-dropdown')
 })
+
+// verification container toggle
+
