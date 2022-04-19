@@ -22,7 +22,7 @@ header nav{
     cursor: pointer;
 }
 header nav .menubtn{
-    background: url(./images/hamburger.png);
+    background: url(../images/hamburger.png);
     height: 33px;
     width: 33px;
     padding: 1em;
@@ -31,7 +31,7 @@ header nav .menubtn{
     transition: .31s ease;
 }
 header nav .active-menu{
-    background: url(./images/close.png);
+    background: url(../images/close.png);
     height: 27px;
     width: 27px;
     padding: .5em;
