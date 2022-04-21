@@ -90,11 +90,11 @@
         <div class="profile-list-section">
 <div class="profile-list-btn-section">
     <i class="fa-solid fa-chart-line"></i>
-    <button>Dashboard</button>
+    <button id="profiledashboardbtn">Dashboard</button>
 </div>
 <div class="profile-list-btn-section">
     <i class="fa-solid fa-info"></i>
-    <button>Your Info</button>
+    <button id="userinfobtn">Your Info</button>
 </div>
 <div class="profile-list-btn-section">
     <i class="fa-brands fa-opencart"></i>
@@ -110,37 +110,65 @@
 </div>
         </div>
     </div>
-<div class="profile-details">
-    <div class="dashboard">
-        <figure>
-            <div class="figure-image">
-                <img src="./images/user.jpg" alt="easter user image">
-                <i class="fa-solid fa-pencil"></i>
+        <div class="profile-details">
+            <div class="dashboard">
+                <figure>
+                    <div class="figure-image">
+                        <img src="../images/user.jpg" alt="easter user image">
+                        <i class="fa-solid fa-pencil"></i>
+                    </div>
+                    <figcaption>
+                        <h2>Mrs Abraham</h2>
+                        <p>New Delhi</p>
+                    </figcaption>
+                </figure>
+                <div class="dashboard-details">
+                    <div class="details-box">
+                        <p>Name <i class="fa-solid fa-arrow-right-long"></i> </p>
+                        <p>Mrs Abraham</p>
+                    </div>
+                    <div class="details-box">
+                        <p>Address <i class="fa-solid fa-arrow-right-long"></i> </p>
+                        <address>H.no - 987, New Delhi - 110037 </address>
+                    </div>
+                    <div class="details-box">
+                        <p>Phone <i class="fa-solid fa-arrow-right-long"></i> </p>
+                        <p>8447377952</p>
+                    </div>
+                    <div class="details-box">
+                        <p>Email <i class="fa-solid fa-arrow-right-long"></i> </p>
+                        <p>ShivamAbraham@gmail.com</p>
+                    </div>
+                </div>
+
             </div>
-            <figcaption>
-                <h2>Shivam Abraham</h2>
-                <p>New Delhi</p>
-            </figcaption>
-        </figure>
-        <div class="dashboard-details">
-            <div class="details-box">
-                <p>Name <i class="fa-solid fa-arrow-right-long"></i> </p>
-                <p>Shivam Abraham</p>
+
+    <!-- <div class="user-info">
+        <h1>Update your details here</h1>
+        <div class="user-info-section">
+            <div class="user-detail-box">
+                <p>Name</p>
+                <input type="text">
             </div>
-            <div class="details-box">
-                <p>City <i class="fa-solid fa-arrow-right-long"></i> </p>
-                <p>New Delhi</p>
+            <div class="user-detail-box">
+                <p>Email</p>
+                <input type="email">
             </div>
-            <div class="details-box">
-                <p>Phone <i class="fa-solid fa-arrow-right-long"></i> </p>
-                <p>8447377952</p>
+            <div class="user-detail-box">
+                <p>Mobile</p>
+                <input type="number">
             </div>
-            <div class="details-box">
-                <p>Email <i class="fa-solid fa-arrow-right-long"></i> </p>
-                <p>ShivamAbraham@gmail.com</p>
+            <div class="user-detail-box">
+                <p>City</p>
+                <input type="text">
+            </div>
+            <div class="user-detail-box">
+                <p>Adress</p>
+                <textarea name="useraddress" id="useraddress" cols="40" rows="2"></textarea>
             </div>
         </div>
-    </div>
+        <button>Update</button>
+    </div> -->
 </div>
 </div>
 <script src="../app.js"></script>

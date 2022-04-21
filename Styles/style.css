@@ -69,6 +69,7 @@ header nav ul li a{
     line-height: 1.5;
     left: -320px;
     transition: .5s ease-in-out;
+    z-index: 2;
 }
 
 .active-cateogary{
@@ -124,12 +125,10 @@ header nav ul li a{
 .signup-container h1{
     padding: 0 2em;
 }
-
 .login-container h1{
     text-align: center;
     margin-bottom: .5em;
 }
-
 .login-container form input{
     width: 100%;
     padding:  .8em;
@@ -142,8 +141,6 @@ header nav ul li a{
     letter-spacing: 2px;
     border-radius: 4px;
 }
-
-
 .login-container form input[type="submit"]{
     background-color: #333;
     color: #fff;
@@ -152,7 +149,6 @@ header nav ul li a{
     cursor: pointer;
     transition: .5s ease;
 }
-
 .login-container form input[type="submit"]:hover{
     background-color: #000;
 }
@@ -196,13 +192,13 @@ header nav ul li a{
 display: flex;
 justify-content: center;
 gap: 2em;
-margin: 2em 0;
+margin: 1em 0;
 }
 
 .profile-list{
     background: #fff;
     padding: 2em;
-    width: 25%;
+    width: 250px;
     border-radius: 8px;
 }
 .profile-list h1{
@@ -217,23 +213,23 @@ margin: 2em 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 1em;
     margin: .5em 0;
 }
 .profile-list-section .profile-list-btn-section i{
-    font-size: 1.5em;
     color: #ccc;
 }
 .profile-list-section .profile-list-btn-section button {
     border: 0;
     background: 0;
     text-align: left;
-    font-size: 1em;
-    width: 120px;
+    /* font-size: 1em; */
+    width: 100px;
     letter-spacing: 2px;
     position: relative;
     cursor: pointer;
     color: #333;
+    text-transform: uppercase;
 }
 .profile-list-section button::after{
     content: '';
@@ -263,7 +259,7 @@ margin: 2em 0;
 }
 .profile-details{
     background: #fff;
-    padding: 2em;
+    padding: 1em;
     width: 60%;
     border-radius: 8px;
 }
@@ -280,12 +276,14 @@ margin: 2em 0;
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    object-fit: cover;
     box-shadow: 0 0 0 5px #dca;
+    object-fit: cover;
 }
 
 .profile-details .dashboard figure .figure-image i{
     position: absolute;
-right: 10px;
+right: 0px;
 bottom: 20px;
 background: #dca;
 padding: .5em;
@@ -302,7 +300,7 @@ cursor: pointer;
 
 .dashboard-details{
     margin-top: 1em;
-    padding-left: 3em;
+    padding-left: 2em;
 }
 .profile-details .details-box{
     display: flex;
@@ -315,8 +313,69 @@ cursor: pointer;
 }
 
 .profile-details .details-box p i{
-    margin-left: 4em;
+    margin-left: 2em;
 }
+
+/* profile user info */
+.user-info{
+    padding: 1em;
+}
+
+.user-info-section{
+    display: grid;
+    grid-template-columns: 200px  200px;
+    gap: 1.5em;
+    padding: 1em;
+}
+.user-info h1{
+    margin-bottom: 1em;
+    margin-left: .5em;
+}
+.user-info-section p{
+    margin-bottom: .5em;
+    font-size: 1.12em;
+    letter-spacing: 1.5px;
+    font-weight: 100;
+}
+.user-info-section input{
+    padding: .5em;
+    border: 0;
+    border: 1px solid #ccc;
+    outline: 0;
+    border-radius: 5px;
+    width: 100%;
+    caret-color: #54BAB9;
+}
+.user-info-section input[type=number] { 
+    -moz-appearance: textfield;
+    appearance: textfield;
+    margin: 0; 
+}
+.user-info-section textarea{
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    outline: 0;
+    padding: .5em;
+    caret-color: #54BAB9;
+}
+.user-info button{
+    background-color: #54BAB9;
+    padding: .5em 1.5em;
+    width: 150px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 1.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.profile-details .dashboard{
+    /* display: none; */
+}
+
+
 /* alert messege START */
 .closebtn {
     margin-left: 15px;
