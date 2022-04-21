@@ -18,3 +18,7 @@
 # Email Verification Success 
 
 ![verify success](https://user-images.githubusercontent.com/82175847/164105562-32a9d3b6-687c-4853-a2e0-f501f92a38ae.png)
+
+# User info section in Profiles
+
+![User Info](https://user-images.githubusercontent.com/82175847/164420161-d967ea6f-f545-47e2-81b9-5fd909911258.png)
