@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="../Styles/profile.css">
 </head>
 <body>
     <header>
@@ -111,7 +112,7 @@
         </div>
     </div>
         <div class="profile-details">
-            <div class="dashboard">
+            <!-- <div class="dashboard">
                 <figure>
                     <div class="figure-image">
                         <img src="../images/user.jpg" alt="easter user image">
@@ -141,7 +142,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
 
     <!-- <div class="user-info">
         <h1>Update your details here</h1>
@@ -169,8 +170,116 @@
         </div>
         <button>Update</button>
     </div> -->
+
+<div class="order-history">
+    <h1>Order History</h1>
+    <div class="orders">
+<table>
+    <tr class="product-info">
+        <th>Product</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Qty</th>
+        <th>Status</th>
+    </tr>
+    <tr class="product-tray">
+        <td id="product-image"><img style="width: 100px; height: 100px; border-radius: 10px;" src="../images/iphone12promax.jpg" alt="Product image"></td>
+        <td id="product-name">Iphone 12 Pro Max</td>
+        <td id="prduct-price">$9999</td>
+        <td id="product-quantity"> 3 </td>
+        <td id="product-status">Delivered</td>
+    </tr>
+    <tr class="product-tray">
+        <td id="product-image"><img style="width: 100px; height: 100px; border-radius: 10px; object-fit: cover;" src="../images/iphone11promax.jpg" alt="Product image"></td>
+        <td id="product-name">Iphone 11 Pro Max</td>
+        <td id="prduct-price">$9888</td>
+        <td id="product-quantity"> 5 </td>
+        <td id="product-status">Shipped</td>
+    </tr>
+    
+</table>
+    </div>
+
+</div>
+
 </div>
 </div>
 <script src="../app.js"></script>
+<script>
+    // profile dashboard functioning
+
+const userInfoBtn = document.getElementById('userinfobtn');
+const profileDashboardBtn = document.getElementById('profiledashboardbtn');
+const profiledetailscotnainer = document.querySelector('.profile-details');
+userInfoBtn.addEventListener('click',function(){
+profiledetailscotnainer.innerHTML = `<div class="user-info">
+<h1>Update your details here</h1>
+<div class="user-info-section">
+    <div class="user-detail-box">
+        <p>Name</p>
+        <input id='username' type="text">
+    </div>
+    <div class="user-detail-box">
+        <p>Email</p>
+        <input id='useremail' type="email">
+    </div>
+    <div class="user-detail-box">
+        <p>Mobile</p>
+        <input id='usermobile' type="number">
+    </div>
+    <div class="user-detail-box">
+        <p>City</p>
+        <input id='usercity' type="text">
+    </div>
+    <div class="user-detail-box">
+        <p>Adress</p>
+        <textarea name="useraddress" id="useraddress" cols="40" rows="2"></textarea>
+    </div>
+</div>
+<button id="usrinfoupdatebtn">Update</button>
+</div>`;
+})
+
+profileDashboardBtn.addEventListener('click',function(){
+    profiledetailscotnainer.innerHTML = `<div class="profile-details">
+    <div class="dashboard">
+        <figure>
+            <div class="figure-image">
+                <img src="../images/user.jpg" alt="easter user image">
+                <i class="fa-solid fa-pencil"></i>
+            </div>
+            <figcaption>
+                <h2>Mrs Abraham</h2>
+                <p>New Delhi</p>
+            </figcaption>
+        </figure>
+        <div class="dashboard-details">
+            <div class="details-box">
+                <p>Name <i class="fa-solid fa-arrow-right-long"></i> </p>
+                <p>Mrs Abraham</p>
+            </div>
+            <div class="details-box">
+                <p>Address <i class="fa-solidfa-arrow-right-long"></i> </p>
+                <address>H.no - 987, New Delhi - 110037 </address>
+            </div>
+            <div class="details-box">
+                <p>Phone <i class="fa-solid fa-arrow-right-long"></i> </p>
+                <p>8447377952</p>
+            </div>
+            <div class="details-box">
+                <p>Email <i class="fa-solid fa-arrow-right-long"></i> </p>
+                <p>ShivamAbraham@gmail.com</p>
+            </div>
+        </div>
+    </div>`;
+})
+
+const updateBtn = document.getElementById('usrinfoupdatebtn');
+const name =  document.getElementById('username');
+const useremail =  document.getElementById('useremail')
+const usermobile =  document.getElementById('usermobile')
+const usercity =  document.getElementById('usercity')
+const useraddress =  document.getElementById('useraddress')
+</script>
 </body>
 </html>
