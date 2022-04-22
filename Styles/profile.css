@@ -164,9 +164,10 @@ cursor: pointer;
 /* profile user info */
 .user-info{
     padding: 1em;
+    display: none;
 }
 
-.user-info-section{
+.user-info-section form{
     display: grid;
     grid-template-columns: 200px  200px;
     gap: 1.5em;
@@ -220,6 +221,7 @@ cursor: pointer;
 /* orders section */
 .order-history{
     padding: 1em;
+    display: none;
 }
 .order-history h1{
     margin-bottom: 1em;
@@ -247,4 +249,19 @@ cursor: pointer;
 
 .order-history table .product-tray{
     border-bottom: 1px solid #ddd;
+}
+/* toggling of profile details through buttons*/
+.userinfo-active .user-info{
+    display: block;
+}
+.userinfo-active .dashboard,
+.userinfo-active .order-history{
+    display: none;
+}
+.userorders-active .order-history{
+display: block;
+}
+.userorders-active .user-info,
+.userorders-active .dashboard{
+    display: none;
 }
