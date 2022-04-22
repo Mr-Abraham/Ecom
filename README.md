@@ -22,3 +22,7 @@
 # User info section in Profiles
 
 ![User Info](https://user-images.githubusercontent.com/82175847/164420161-d967ea6f-f545-47e2-81b9-5fd909911258.png)
+
+# User Orders 
+
+![orders](https://user-images.githubusercontent.com/82175847/164625507-13e87c9f-3823-4768-8246-221815efe91c.png)
