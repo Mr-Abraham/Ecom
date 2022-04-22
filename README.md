@@ -26,3 +26,11 @@
 # User Orders 
 
 ![orders](https://user-images.githubusercontent.com/82175847/164625507-13e87c9f-3823-4768-8246-221815efe91c.png)
+
+# Landing Page
+
+![homepage](https://user-images.githubusercontent.com/82175847/164654805-06ccbbda-7688-4047-beda-98b1a2d2f925.png)
+
+# Homepage
+
+![mainhome](https://user-images.githubusercontent.com/82175847/164655830-650ddbb4-dc78-41ff-8472-9350176b9206.png)
