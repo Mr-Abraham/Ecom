@@ -112,11 +112,14 @@
         </div>
     </div>
         <div class="profile-details">
+            <div class="profile-popup">
+                <i class="fa-solid fa-xmark close-popup"></i>
+            </div>
             <div class="dashboard">
                 <figure>
                     <div class="figure-image">
                         <img src="../images/user.jpg" alt="easter user image">
-                        <i class="fa-solid fa-pencil"></i>
+                        <i class="fa-solid fa-pencil pencil"></i>
                     </div>
                     <figcaption>
                         <h2>Mrs Abraham</h2>
@@ -224,6 +227,20 @@ userOrdersBtn.addEventListener('click',function(){
     profiledetailscotnainer.classList.add('userorders-active');
     profiledetailscotnainer.classList.remove('userinfo-active');
 })
+const profilePopUp = document.querySelector('.profile-popup');
+const pencil = document.querySelector('.pencil')
+const closePopupbtn = document.querySelector('.close-popup');
+pencil.addEventListener('click',function(){
+    console.log('hell')
+    profilePopUp.classList.add('active-popup')
+    document.body.classList.add('popup-background');
+})
+
+closePopupbtn.addEventListener('click',function(){
+    profilePopUp.classList.remove('active-popup')
+document.body.classList.remove('popup-background');
+})
+
 </script>
 </body>
 </html>
