@@ -278,6 +278,7 @@ display: block;
     background-color: #fff;
     z-index: 2;
     height: 0;
+    width: 0;
     overflow: hidden;
     transition: .5s ease;
     transform-origin: top;
@@ -290,6 +291,7 @@ display: block;
 }
 .active-popup{
     height: 350px;
+    width: 60vw;
     box-shadow:  0 0 5px #ccc;
     padding: 1em;
 }

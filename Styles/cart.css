@@ -1,0 +1,125 @@
+/* .profile-nav ul li{
+    position: relative;
+}
+.profile-nav ul li .logout-dropdown{
+    padding: .5em;
+    position: absolute;
+    top: 25px;
+    right: 2px;
+    transform: scale(1,0);
+    transform-origin: top;
+    transition: .5s ease;
+    width: 100%;
+    background: #fff;
+    border-radius: 3px;
+}
+.profile-nav ul li .logout-dropdown:hover{
+    background-color: #eee;
+}
+.profile-nav ul li .active-logout-dropdown{
+    transform: scale(1,1);
+}
+.profile-nav ul li .logout-dropdown li a{
+    color: #fff;
+    text-align: center;
+    font-size: .9em;
+    background: #000;
+    display: inline-block;
+    width: 100px;
+    padding: .5em 1em;
+    width: 120px;
+    border-radius: 3px;
+}
+.profile-nav ul li i{
+    margin: 0 .3em;
+}
+ */
+
+/* cart container */
+.cart-container{
+    padding: 1em;
+}
+.cart-container h1{
+margin-bottom: 1em;
+letter-spacing: 2px;
+}
+.cart-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1em;
+}
+.cart-products{
+    width: 70vw;
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+}
+.cart-products .promocode-section{
+    padding: 1em;
+    max-width: 550px;
+    float: right;
+}
+.cart-products .promocode-section p{
+    font-size: 1.1em;
+    margin-bottom: 1em;
+}
+.cart-products .promocode-section input {
+    background:none;
+    border: 0;
+    outline: 0;
+    border: 1px solid #ddd;
+    padding: .5em;
+    caret-color: #54BAB9;
+    width: 300px;
+    font-size: 1em;
+    margin: .5em 0;
+}
+
+.cart-products .promocode-section input[type='submit']{
+    background: #54BAB9;
+    width: 150px;
+    border: 0;
+}
+.heading-tray{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.orders-tray{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin-top: 2em;
+    gap: 1em;
+}
+.orders-tray img{
+    width: 150px;
+    height: 100px;
+}
+.cart-total{
+    background-color: #fff;
+    padding: 1em;
+    width: 30vw;
+    border-radius: 10px;
+}
+.cart-total a{
+    text-decoration: none;
+    color: #000;
+    background: #54BAB9;
+    padding: .5em 1.5em;
+    display: inline-block;
+    margin-top: 1.5em;
+    width: 100%;
+    text-align: center;
+}
+.cart-amount{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1.2em;
+}
+.cart-amount h3{
+    text-align: right;
+}
