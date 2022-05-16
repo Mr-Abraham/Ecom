@@ -42,5 +42,6 @@
 # Cart 
 ![cart](https://user-images.githubusercontent.com/82175847/166616704-3aa882e7-027e-42d8-852f-b0f864c84212.png)
 
+# Change Password
 
-
+![Screenshot 2022-05-16 at 22-28-17 Document](https://user-images.githubusercontent.com/82175847/168644919-dd1d6c7d-ba2d-4530-a132-0796d614c3a6.png)
