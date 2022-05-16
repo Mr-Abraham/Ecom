@@ -219,35 +219,35 @@ cursor: pointer;
 }
 
 /* orders section */
-.order-history{
+.cart-orders{
     padding: 1em;
     display: none;
 }
-.order-history h1{
+.cart-orders h1{
     margin-bottom: 1em;
     font-size: 2.5em;
     letter-spacing: 2px;
     font-weight: 100;
 }
-.order-history table{
+.cart-orders table{
     width: 100%;
     border-collapse: collapse;
     text-align: left;
 }
-.order-history table .product-info{
+.cart-orders table .product-info{
     font-weight: 100;
 }
-.order-history table tr{
+.cart-orders table tr{
     vertical-align:middle;
     padding: 1em;
     padding: 2em;
 }
 
-.order-history table tr td{
+.cart-orders table tr td{
     padding: 2em  0;
 }
 
-.order-history table .product-tray{
+.cart-orders table .product-tray{
     border-bottom: 1px solid #ddd;
 }
 /* toggling of profile details through buttons*/
@@ -255,15 +255,25 @@ cursor: pointer;
     display: block;
 }
 .userinfo-active .dashboard,
-.userinfo-active .order-history{
+.userinfo-active .cart-orders{
     display: none;
 }
-.userorders-active .order-history{
+.userorders-active .cart-orders{
 display: block;
 }
 .userorders-active .user-info,
 .userorders-active .dashboard{
     display: none;
+}
+
+.changepwd-active .user-info,
+.changepwd-active .dashboard,
+.changepwd-active .cart-orders{
+    display: none;
+}
+
+.changepwd-active .password-section{
+    display: block;
 }
 
 /* profile popup */
@@ -309,3 +319,46 @@ display: block;
     position: absolute;
     inset: 0;
 }
+
+/* change password here  */
+
+.password-section{
+    background-color: #fff;
+    padding: 2em;
+    display: none;
+}
+
+.password-section h1{
+    font-size: 2.5em;
+    margin-bottom: .5em;
+}
+
+.password-change-section{
+    background: #fff;
+    padding: .5em;
+}
+
+.password-change-section p{
+    margin: .2em 0;
+    font-size: 1em;
+}
+
+.password-change-section input{
+    padding: .5em;
+    width: 40%;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    border: 1px solid #ddd;
+    margin: 1em 0;
+}
+
+.password-change-section input[type="submit"]{
+ color: #000;   
+ margin-top: 2em ;
+ width: 30%;
+ background: #54BAB9;
+box-shadow:  0 0 10px #ddd;
+font-size: 1em;
+}
+
