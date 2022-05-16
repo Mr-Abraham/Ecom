@@ -38,3 +38,9 @@
 # Popup
 
 ![popup](https://user-images.githubusercontent.com/82175847/164967834-108cd4dd-a830-4138-9e3d-2116c2c8eee7.png)
+
+# Cart 
+![cart](https://user-images.githubusercontent.com/82175847/166616704-3aa882e7-027e-42d8-852f-b0f864c84212.png)
+
+
+
